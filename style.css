@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,500;1,500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.digital-clock {
+    color: #fff;
+    background: #2d2f41;
+    width: 75%;
+    height: 70%;
+    padding: 20px 45px;
+    box-shadow: 0 10px 25px #2d2f41;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hours, .colon, .minutes, .seconds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 200px;
+    padding: 0 10px;
+}
+
+.colon {
+    font-size: 100px;
+    color: #767676;
+}
+
+.hours, .minutes, .seconds, .period, .date {
+    background: -webkit-linear-gradient(180deg, #06beb6, #48b1bf);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.period {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
